@@ -1,0 +1,165 @@
+#title{
+  background-color: #ff4c68;
+  height: 650px;
+}
+#features{
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+body{
+  font-family: 'Montserrat';
+   text-align: center;
+}
+
+h2{
+  font-family: 'Montserrat-bold';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* .h2text{
+  font-family: 'Montserrat-bold';
+  font-size: 3rem;
+  line-height: 1.5;
+} */
+.container-fluid{
+  padding: 3% 15%;
+}
+.btn-secondary{
+
+}
+.textstyle{
+  font-family: 'Montserrat-black';
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: left;
+}
+.toritos{
+  font-size: 2.5em;
+  font-family: 'Ubuntu';
+}
+.navbar{
+  padding: 0;
+  margin-bottom: 100px;
+}
+.iphone{
+  transform: rotate(30deg);
+  height: 80%;
+  margin-left: 15%;
+  /* margin-bottom: -20%; */
+}
+.btn{
+  margin-right: 10px;
+  margin-top: 10%;
+}
+.btn1{
+  margin-bottom: 0;
+}
+.nav-link{
+  margin-right: 1rem;
+  font-family: 'Ubuntu';
+}
+.download{
+  margin-bottom: 19%;
+
+}
+.fas{
+  font-size: 5rem;
+  color:#ef8172;
+  margin-bottom: 5%;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+.part2{
+  padding: 7% 15%;
+  position: relative;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.lowtext{
+  color: #8f8f8f;
+  line-height: 2;
+  margin-bottom: 10%;
+}
+.boldtext{
+  font-family: 'Montserrat-bold';
+}
+.imgdog{
+  margin-top: 5%;
+  margin-bottom: 10%;
+  height: 10rem;
+  border-radius: 100%;
+  margin-right: 5%;
+}
+.imgpress{
+  width: 15%;
+  margin-right: 5%;
+  margin-bottom: 1%;
+}
+.carousel-item{
+  height: 500px;
+}
+.d-block{
+  height: 500px;
+}
+/* .testimonial-image{
+  border-radius: 100%;
+} */
+/* testimonial section */
+#testimonials{
+   center;
+  background-color: #ef8172;
+  color: #fff;
+}
+#press{
+  background-color: #ef8172;
+   center;
+  padding-bottom: 3%;
+}
+/* prices */
+#pricing{
+  padding: 7% 15%;
+}
+.pricing-column{
+padding: 3% 2%;
+}
+/* phone/tablet-size */
+@media screen and (max-width: 992px) {
+  #title{
+    height: auto;
+  }
+  .textstyle{
+    text-align: center;
+  }
+  .iphone{
+    transform: rotate(0);
+    position: static;
+    margin: 0;
+  }
+}
+/* bottom of the website */
+#cta{
+  padding: 3% 15%;
+  height: 300px;
+  background-color: #ff4c68;
+}
+.bot-text{
+    font-family: 'Montserrat-Black';
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.btn-bot{
+  margin-top: 3%;
+}
+/* the Copyright section*/
+.cr{
+  color: #8f8f8f;
+  line-height: 2;
+}
+#footer{
+  padding: 3% 15%;
+}
